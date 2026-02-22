@@ -1,0 +1,36 @@
+# ═══════════════════════════════════════════════
+# VPN Bot — Python Dependencies
+# ═══════════════════════════════════════════════
+
+# Core framework
+aiogram==3.13.1
+aiohttp==3.10.11
+
+# Configuration
+pydantic==2.10.3
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+
+# Database
+asyncpg==0.30.0
+sqlalchemy[asyncio]==2.0.36
+alembic==1.14.0
+greenlet==3.1.1
+
+# Cache / FSM storage
+redis[hiredis]==5.2.1
+
+# Logging
+structlog==24.4.0
+
+# Security
+cryptography==43.0.3
+
+# Utilities
+uuid6==2024.7.10
+
+# Dev tools (optional)
+# pytest==8.3.4
+# pytest-asyncio==0.24.0
+# ruff==0.8.4
+# mypy==1.13.0
